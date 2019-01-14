@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/estilos.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+
+    <title>Inicio</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand logoprincipal" href="#">
+                <img src="img/logo.png" height="75px" width="75px" class="d-inline-block align-top" alt="">
+                <p id="textologo">CNC México</p>
+            </a>
+            <form class="form-group buscadorprincipal">
+                <input class="form-control mr-sm-2 buscador" type="search" placeholder="Buscar productos..." aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
+        </nav>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categorias</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Tuberculos</a>
+                        <a class="dropdown-item" href="#">Cereales</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Otros</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Vender</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Registrate</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="slider-principal">
+        <div id="wowslider-container1">
+            <div class="ws_images">
+                <ul>
+                    <li><img src="img/1.jpg" alt="Castillo" title="Castillo" id="wows1_0"/></li>
+                    <li><img src="img/2.jpg" alt="html5 slideshow" title="Carlos" id="wows1_1"/></li>
+                    <li><img src="img/3.jpg" alt="Castillo Huancayo" title="Castillo Huancayo" id="wows1_2"/></li>
+                </ul>
+            </div>
+        <div class="ws_bullets">
+        <div>
+            <a href="#" title="Castillo"><span><img src="img/1.jpg" alt="Castillo"/>1</span></a>
+            <a href="#" title="Carlos"><span><img src="img/2.jpg" alt="Carlos"/>2</span></a>
+            <a href="#" title="Castillo Huancayo"><span><img src="img/3.jpg" alt="Castillo Huancayo"/>3</span></a>
+        </div>
+        </div>
+            <div class="ws_script" style="position:absolute;left:-99%"></div>
+            <div class="ws_shadow"></div>
+        </div>
+    </div>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/wowslider.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
